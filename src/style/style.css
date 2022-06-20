@@ -10,10 +10,36 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
+.container .box {
+  height: 200px;
+  width: 300px;
+  outline: 3px dashed black;
+  margin: 20px;
+  padding: 10px;
+}
+.container .flex-box {
+  display: flex;
+}
+.container .boxes {
+  height: 200px;
+  width: 300px;
+  outline: 3px dashed black;
+  margin: 20px;
+  padding: 10px;
+}
+.container .box-info {
+  font-size: 18px;
+  color: rgb(30, 113, 255);
+}
 .container .msg {
   color: rgb(30, 113, 255);
 }
 .container button {
   margin: 0 10px 0 10px;
   padding: 10px;
+}
+.container .textInput {
+  height: 30px;
+  width: 250px;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */

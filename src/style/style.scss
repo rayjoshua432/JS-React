@@ -10,6 +10,31 @@
    font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
 
+   .box {
+      height: 200px;
+      width: 300px;
+      outline: 3px dashed black;
+      margin: 20px;
+      padding: 10px;
+   }
+
+   .flex-box {
+      display: flex;
+   }
+
+   .boxes {
+      height: 200px;
+      width: 300px;
+      outline: 3px dashed black;
+      margin: 20px;
+      padding: 10px;
+   }
+
+   .box-info {
+      font-size: 18px;
+      color: rgb(30, 113, 255);
+   }
+
    .msg {
       color: rgb(30, 113, 255);
    }
@@ -17,5 +42,11 @@
    button {
       margin: 0 10px 0 10px;
       padding: 10px;
+   }
+
+   .textInput {
+      height: 30px;
+      width: 250px;
+      margin: 10px;
    }
 }
